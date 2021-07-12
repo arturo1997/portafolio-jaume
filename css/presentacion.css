@@ -1,0 +1,27 @@
+.presentacion{
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+}
+.contenido-presentacion{
+    max-width: 900px;
+    padding-block: 24px;
+    font: var(--text-presentation);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.contenido-presentacion p{
+    margin: 0;
+}
+.contenido-presentacion p span{
+    font: var(--headline5);
+}
+@media screen and (min-width: 768px) {
+    .presentacion{
+        padding-block-start: 200px;
+        padding-block-end: 200px;
+    }
+}
